@@ -1,0 +1,14 @@
+[官方文档](http://pandas.pydata.org/pandas-docs/stable/)
+- pd.read_csv('')
+- .columns=[]
+- .sort_values(by=[])
+- .groupby()[].agg(myfunc)
+- .reset_index()
+- pd.merge(a,b,how,on=[])
+- pd.concat
+- pd.pivot_table
+- pd.get_dummies(a['feature',prefix='newname'])
+- .drop('feature',axis,inplace)
+- .fillna(dict)
+- a.feature.map(myfunc)
+- model.get_fscore()
